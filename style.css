@@ -1456,6 +1456,11 @@ button {
 }
 
 @media (min-width: 820px) {
+  .investment-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* ==========================================================================
    TÉCNICA DE ANCORAGEM DE VALOR (ESTRUTURA COMPLETA)
    ========================================================================== */
@@ -2294,5 +2299,30 @@ button {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.15rem;
+  }
+}
+
+/* ==========================================================================
+   MOBILE POLISH (Ajustes Finais para Celular)
+   ========================================================================== */
+@media (max-width: 767px) {
+  .testimonial-card,
+  .step-card {
+    padding: 1.75rem 1.25rem !important;
+  }
+
+  .btn-start-project,
+  .final-cta-container .btn-start-project {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .section {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .section-title {
+    font-size: 1.6rem !important;
   }
 }
