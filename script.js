@@ -10,10 +10,10 @@
 // ============================================================================
 // Insira abaixo o número de WhatsApp do Eduardo (Top Marketing BH).
 // Formato: DDI + DDD + Número (apenas dígitos numéricos, sem espaços ou traços).
-// Exemplo: '5531999999999' (55 = Brasil, 31 = DDD Belo Horizonte/MG)
+// Exemplo: '553197922538' (55 = Brasil, 31 = DDD Belo Horizonte/MG)
 const CONFIG = {
-  whatsappNumber: '5531999999999', // <-- Altere aqui para o número de WhatsApp desejado
-  messageText: 'Olá, Eduardo! Vi a proposta para o Laboratório Santa Clara e gostaria de conversar sobre o início do projeto.'
+  whatsappNumber: '553197922538', // <-- Altere aqui para o número de WhatsApp desejado
+  messageText: 'Vamos fechar!'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
